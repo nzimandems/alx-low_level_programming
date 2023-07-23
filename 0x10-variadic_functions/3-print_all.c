@@ -4,11 +4,11 @@
  * print_char - print a char
  * @c: char
  */
-
 void print_char(va_list c)
 {
-	printf("%c", va_arg(c, int))
+	printf("%c", va_arg(c, int));
 }
+
 /**
  * print_integer - print an integer
  * @i: integer
